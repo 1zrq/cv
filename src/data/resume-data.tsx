@@ -14,10 +14,12 @@ import {
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
+  Avatar,
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+
 
 export const RESUME_DATA = {
   name: "Ruiquan Zhao",
@@ -28,7 +30,7 @@ export const RESUME_DATA = {
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary:
     "I am a seasoned WordPress Developer with a robust background in web development, specializing in WordPress and WooCommerce. Since 2017, I have successfully led the development of over 400 websites for a diverse range of clients through my work at Yunclever. My journey in web development began at Baijuncheng, where I honed my skills in HTML5, CSS3, JavaScript, Bootstrap, and Photoshop.",
-  avatarUrl: "./images/logos/avatar.jpeg",
+  avatarUrl: Avatar.src,
   personalWebsiteUrl: "",
   contact: {
     email: "zrq1320@gmail.com",
